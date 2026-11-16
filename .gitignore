@@ -1,0 +1,18 @@
+# Local configuration and generated Python files
+.env
+**/.env
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local environments and test/build output
+venv/
+.venv/
+**/venv/
+**/.venv/
+.pytest_cache/
+**/.pytest_cache/
+
+# Runtime uploads
+website/app/static/uploads/*
+!website/app/static/uploads/.gitkeep
